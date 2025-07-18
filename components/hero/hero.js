@@ -37,9 +37,9 @@ function About() {
             Rodrigo Arellano
           </h2>
           <h1 className="uppercase text-xl sm:text-2xl md:text-4xl lg:text-6xl font-bold tracking-tighter">
-            FullStack - Front{" "}
+            FullStack{" "}
             <span className="bg-gradient-to-r from-orange-50 to-amber-400 bg-clip-text text-transparent">
-              End Oriented Developer
+              Developer
             </span>
           </h1>
         </div>
@@ -70,8 +70,8 @@ function About() {
         <div className="flex justify-center">
           <a
             className="text-blue-400 hover:text-blue-600 flex items-center gap-2"
-            href="/CV-Rodrigo-Arellano.pdf"
-            download="CV-Rodrigo-Arellano.pdf"
+            href="/cv-fullstack-rodrigo.pdf"
+            download="cv-fullstack-rodrigo.pdf"
           >
             Download CV <span className="text-blue-500 font-semibold">⬇</span>
           </a>

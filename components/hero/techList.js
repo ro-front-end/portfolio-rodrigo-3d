@@ -3,6 +3,8 @@ function TechList() {
     { id: 1, title: "Next.js" },
     { id: 2, title: "React" },
     { id: 3, title: "Tailwind" },
+    { id: 4, title: "Express" },
+    { id: 5, title: "Nodejs" },
   ];
 
   return (

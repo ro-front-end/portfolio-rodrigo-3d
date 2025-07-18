@@ -15,7 +15,7 @@ function About() {
             alt="Profile picture of Rodrigo Arellano"
             width={288}
             height={288}
-            quality={75}
+            quality={40}
           />
         </div>
 
@@ -28,11 +28,11 @@ function About() {
 
           {/* Bio */}
           <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-300">
-            I am a passionate Full-Stack developer {`(Front-End oriented)`} with
-            a focus on building high-performance web applications. My expertise
-            lies in creating scalable, accessible, and visually appealing
-            solutions tailored to client needs. I prioritize clean code,
-            user-friendly navigation, and long-term maintainability.
+            I am a passionate Full-Stack developer with a focus on building
+            high-performance web applications. My expertise lies in creating
+            scalable, accessible, and visually appealing solutions tailored to
+            client needs. I prioritize clean code, user-friendly navigation, and
+            long-term maintainability.
           </p>
 
           {/* Work Approach */}
@@ -68,8 +68,8 @@ function About() {
             <LinkButtonPrimary href="/contact">Contact Me</LinkButtonPrimary>
             <a
               className="text-blue-400 hover:text-blue-600 flex items-center gap-2"
-              href="/CV-Rodrigo-Arellano.pdf"
-              download="CV-Rodrigo-Arellano.pdf"
+              href="/cv-fullstack-rodrigo.pdf"
+              download="cv-fullstack-rodrigo.pdf"
             >
               Download CV <span className="text-blue-500 font-semibold">⬇</span>
             </a>
