@@ -15,7 +15,15 @@ Complements [`docs/STANDARDS.md`](./STANDARDS.md) (stack/architecture decisions)
 - **Each issue gets its own branch and its own PR** — issues are never bundled into a single PR, and no issue is left half-done on a shared branch.
 - Branch name: `type/issue-slug` (e.g. `feat/trigger-office-panel`, `fix/camera-lerp`), consistent with the type used in Conventional Commits.
 - **Every PR documents in its description** which roadmap issue/milestone it addresses and what changed (already defined in STANDARDS.md).
-- Before merging into `main`: a review step (can lean on `/code-review` against the diff).
+- Before merging: a review step (can lean on `/code-review` against the diff).
+
+## Integration branch: `sandbox`
+
+`main` is not the direct target for issue PRs. There's a persistent `sandbox` branch between feature branches and `main`:
+
+- **Issue branches PR into `sandbox`**, not `main`. This is where work lands first and gets tried out together.
+- **`sandbox` PRs into `main`** only once enough work has accumulated there and it's gone through manual QA — at that point it's promoted with its own PR (`sandbox` → `main`).
+- `main` stays production-clean at all times; `sandbox` is where integration risk lives.
 
 ## Waves: how agent work gets sequenced
 
